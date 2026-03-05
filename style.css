@@ -1,0 +1,128 @@
+body{
+    height: 5000px;
+    margin: 0px;
+    display: block;
+}
+
+main{
+    width: auto;
+    height: 5000px;
+}
+
+
+.logo{
+    height: 100%;
+
+}
+
+
+
+#pic{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    inset: 0px;
+    
+}
+
+  
+
+#top{
+    position:sticky;
+    top:0;     
+    height: 60px;
+    backdrop-filter: blur(20px);
+    z-index: 2;
+}
+
+.color{
+    background-image: linear-gradient(to right,rgba(48, 48, 48, 0.253),  rgb(54, 46, 34));
+
+}
+
+button{
+    background-color:rgba(165, 148, 117, 0);
+    border: 0px;
+    cursor: pointer;
+    
+}
+.social{
+    display: flex;
+    margin-right: 20px;
+}
+
+a{
+    margin: auto;
+}
+
+.alpha{
+    display: flex;
+    font-family:sans-serif;
+    color: azure;
+    font-size: 8px;
+    background-image: linear-gradient(rgba(61, 61, 61, 0.486),rgba(75, 45, 26, 0.486));
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-shadow: 0 0 10px rgba(58, 58, 58, 0.2);
+    padding: 10px;;
+    border-radius: 15px;
+
+    margin-right: 20px;
+    cursor: pointer;
+    margin-block: auto;
+    transition: box-shadow 0.2s, border 0.5s;
+}
+
+
+.alpha:hover{
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.171);
+}
+
+.sansSerif{
+    font-size: 40px; 
+    margin: auto; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: azure; 
+}
+
+#text{
+
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(54, 54, 54);
+    border: 3px solid rgba(255, 255, 255, 0);
+    transition: box-shadow 0.2s, border 0.5s, backdrop-filter 0.5s;
+}
+
+#text:hover{
+    box-shadow: 0 0 30px rgba(121, 73, 255, 0.719);
+    border: 3px solid rgba(121, 73, 255, 0.664);
+    backdrop-filter: blur(5px);
+}
+
+#text2{
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(54, 54, 54);
+    border: 3px solid rgba(255, 255, 255, 0);
+    transition: box-shadow 0.2s, border 0.5s, backdrop-filter 0.5s;
+}
+
+#text2:hover{
+    box-shadow: 0 0 30px rgba(255, 133, 47,  0.473);
+    border: 3px solid rgba(255, 133, 47, 0.664);
+    backdrop-filter: blur(5px);
+}
+
+.textgroup{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    font-size: 15px;
+    width: 70%;
+}
+
