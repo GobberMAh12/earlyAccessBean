@@ -9,6 +9,11 @@
     <title>BEANSSASIN EarlyAccess</title>
     <link rel="icon" type="image/x-icon" href="bean-removebg-preview.png">
 
+    <?php
+    phpinfo();
+    ?>
+
+
 </head>
 <body>  
     <header  id = "top" class = "color">
