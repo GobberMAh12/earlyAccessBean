@@ -1,6 +1,7 @@
 <?php
 $conn = new mysqli("localhost", "Deeznut", "A_b*512HEJ@", "turd");
 
+
 ?>
 
 <!DOCTYPE html>
@@ -13,10 +14,9 @@ $conn = new mysqli("localhost", "Deeznut", "A_b*512HEJ@", "turd");
 <body>
 
     <form method="POST">
-        Titel: <input type="text" name="titel" required><br><br>
-        Beskrivning:<br>
-        <textarea name="beskrivning" rows="5" cols="40"></textarea><br><br>
-        <input type="submit" value="Skicka">
+        Username: <input type="text" name="username" required><br><br>
+        Password: <input type="password" name="password" required><br><br>
+        <input type="submit" value="Register account">
     </form>
 
 </body>
