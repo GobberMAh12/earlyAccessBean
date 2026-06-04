@@ -1,8 +1,4 @@
 
-<?php
-$conn = new mysqli("localhost", "Deez_nut", "11AmO.q0192,@d0932", "turd");
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,12 +9,12 @@ $conn = new mysqli("localhost", "Deez_nut", "11AmO.q0192,@d0932", "turd");
 </head>
 <body>
 
-<form method="POST">
-    Titel: <input type="text" name="titel" required><br><br>
-    Beskrivning:<br>
-    <textarea name="beskrivning" rows="5" cols="40"></textarea><br><br>
-    <input type="submit" value="Skicka">
-</form>
+    <form method="POST">
+        Titel: <input type="text" name="titel" required><br><br>
+        Beskrivning:<br>
+        <textarea name="beskrivning" rows="5" cols="40"></textarea><br><br>
+        <input type="submit" value="Skicka">
+    </form>
 
 </body>
 </html>
