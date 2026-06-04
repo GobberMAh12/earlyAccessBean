@@ -1,4 +1,7 @@
+<?php
+$conn = new mysqli("localhost", "Deeznut", "A_b*512HEJ@", "turd");
 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
