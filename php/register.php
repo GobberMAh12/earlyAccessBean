@@ -1,5 +1,8 @@
 
+<?php
+$conn = new mysqli("10.159.33.36", "Deez_nut", "11AmO.q0192,@d0932", "turd");
 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
