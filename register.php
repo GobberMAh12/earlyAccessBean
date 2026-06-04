@@ -1,7 +1,11 @@
 <?php
 $conn = new mysqli("localhost", "Deeznut", "A_b*512HEJ@", "turd");
 
-
+if($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username = $_POST["username"];
+    $sql = "INSERT INTO valfritt_namn (name) VALUES ('$username')";
+    $conn->query($sql);
+}
 ?>
 
 <!DOCTYPE html>
